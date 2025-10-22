@@ -1,13 +1,13 @@
 # voice-calculator-
     This project is a voice-based calculator that uses speech recognition and text to speech to perform 
 arithmatic and scientific algorithms.
-The app:
+#The app:
     > Captures voice input Captures voice input using your system microphone.
     > Converts it to text with the SpeechRecognition library.
     > Evaluates the expression securely (without eval()).
-    >Speaks the result using pyttsx3.
+    > Speaks the result using pyttsx3.
 
-  #Features-
+  # Features-
     > Voice input using speech_recognition
     > Text-to-speech output with pyttsx3
     > Safe evaluation using AST (no eval)
@@ -16,13 +16,13 @@ The app:
     > Error handling and voice feedback
     > Unit tests for safety and correctness
 
-  #Requirements
+  # Requirements
     Python 3.8+
     speechrecognition
     pyttsx3
     pyaudio
 
-  #project structure
+  # project structure
     voice_calculator
           |
      requirements.txt
@@ -57,6 +57,6 @@ The app:
   -> click the mic button to use input voice.
   -> The result will be spoken aloud.
    # output
-![screenshot]()
+![screenshot](https://github.com/abdulkhalik183/voice-calculator-/blob/eea6af2b656dde3d1505f99f5a61b98ae3065f5d/cal2.png)
 
 

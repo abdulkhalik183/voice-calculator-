@@ -2,10 +2,10 @@
     This project is a voice-based calculator that uses speech recognition and text to speech to perform 
 arithmatic and scientific algorithms.
 The app:
-    > Captures voice input Captures voice input using your system microphone
-    > Converts it to text with the SpeechRecognition library
-    > Evaluates the expression securely (without eval())
-    >Speaks the result using pyttsx3
+    > Captures voice input Captures voice input using your system microphone.
+    > Converts it to text with the SpeechRecognition library.
+    > Evaluates the expression securely (without eval()).
+    >Speaks the result using pyttsx3.
 
   #Features-
     > Voice input using speech_recognition

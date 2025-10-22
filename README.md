@@ -38,17 +38,17 @@ arithmatic and scientific algorithms.
      tests
          >tests_safe_eval.py
 
-    #installation
+    # installation
        Create and activate a virtual environment:
           python -m venv venv
           # Windows
              venv\Scripts\activate
 
-    #installation requirements
+    # installation requirements
         pip install -r requirements.txt
 
 
-    #usage
+    # usage
       > cli mode
          python cli_calulator.py
       > Gui mode

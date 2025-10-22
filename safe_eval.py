@@ -1,6 +1,3 @@
-"""Safe expression evaluator using AST.
-Supports: + - * / ** % parentheses, unary +/-, numeric literals, and selected math functions.
-"""
 import ast
 import operator as op
 import math
@@ -75,3 +72,4 @@ def _eval_node(node):
         raise ValueError(f"Unknown identifier: {node.id}")
 
     raise ValueError(f"Unsupported expression: {ast.dump(node)}")
+

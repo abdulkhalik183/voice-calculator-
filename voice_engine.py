@@ -1,4 +1,3 @@
-"""Wraps speech recognition and text-to-speech functionality."""
 import speech_recognition as sr
 import pyttsx3
 
@@ -18,7 +17,7 @@ class VoiceEngine:
             audio = self.recognizer.listen(source, timeout=timeout, phrase_time_limit=phrase_time_limit)
         try:
             text = self.recognizer.recognize_google(audio)
-            print(f"✅ Recognized: {text}")
+            print(f"✅Recognized: {text}")
             return text
         except sr.UnknownValueError:
             raise Exception("Could not understand audio")
@@ -30,3 +29,4 @@ class VoiceEngine:
         print(f"🗣️ Saying: {text}")
         self.tts.say(text)
         self.tts.runAndWait()
+

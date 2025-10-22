@@ -1,4 +1,3 @@
-"""Tkinter GUI calculator with voice input button."""
 import tkinter as tk
 from tkinter import messagebox
 from safe_eval import evaluate
@@ -67,3 +66,4 @@ class GUICalculator(tk.Tk):
 if __name__ == '__main__':
     app = GUICalculator()
     app.mainloop()
+

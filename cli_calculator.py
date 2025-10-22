@@ -1,4 +1,3 @@
-"""Simple CLI voice calculator."""
 from voice_engine import VoiceEngine
 from safe_eval import evaluate
 
@@ -33,3 +32,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
